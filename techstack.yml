@@ -1,0 +1,163 @@
+repo_name: Huntemall/snowpassforios-
+report_id: 3dbee449f1feb022031d9a48ad1c442a
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T09:57:34+00:00'
+requested_by: SimplyDanny
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Huntemall/snowpassforios-
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-/blob/master/.github/workflows/deploying.yml
+  detection_source: ".github/workflows/deploying.yml"
+  last_updated_by: Mingshen Sun
+  last_updated_on: 2023-03-19 03:25:53.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Huntemall/snowpassforios-/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Mingshen Sun
+  last_updated_on: 2020-07-20 01:16:16.000000000 Z
+- name: fastlane
+  description: Connect all iOS deployment tools into one streamlined workflow
+  website_url: https://fastlane.tools/
+  version: 2.212.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Mobile Continuous Integration
+  image_url: https://img.stackshare.io/service/2383/11098337.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mingshen Sun
+  last_updated_on: 2020-07-20 01:16:16.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-
+  detection_source: Repo Metadata
+- name: rest-client
+  description: A simple HTTP and REST client for Ruby
+  package_url: https://rubygems.org/rest-client
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18836/default_669e0ebb464c584b580cfec09e646fddff70c02a.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mingshen Sun
+  last_updated_on: 2020-07-25 16:23:16.000000000 Z
+- name: xcodeproj
+  description: Xcodeproj lets you create and modify Xcode projects from Ruby
+  package_url: https://rubygems.org/xcodeproj
+  version: 1.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19165/default_f74adb1c8d95c3268ea94f5ba9bbb60a0bc900ed.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mingshen Sun
+  last_updated_on: 2020-07-20 01:16:16.000000000 Z
+- name: SVProgressHUD/SVProgressHUD
+  description: A clean and lightweight progress HUD for your iOS and tvOS app
+  package_url: https://github.com/Carthage/SVProgressHUD/SVProgressHUD
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/carthage/image.png
+  detection_source_url: https://github.com/Huntemall/snowpassforios-/blob/master/Cartfile
+  detection_source: Cartfile
+  last_updated_by: Mingshen Sun
+  last_updated_on: 2022-05-22 23:26:00.000000000 Z
